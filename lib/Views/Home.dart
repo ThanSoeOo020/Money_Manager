@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class Home extends StatefulWidget {
@@ -12,7 +11,8 @@ class _HomeState extends State<Home> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-
+          title: Text('Money Manager'),
+          backgroundColor: Colors.white,
         ),
       ),
     );

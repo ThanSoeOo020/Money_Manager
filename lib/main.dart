@@ -12,6 +12,9 @@ ThemeData _buildAppTheme() {
     primaryColor: Style.primaryColor,
     scaffoldBackgroundColor: Style.secondaryColor,
     cardColor: Style.secondaryColor,
+    appBarTheme: AppBarTheme(
+      color: Colors.white,
+    ),
     textTheme: _buildAppTextTheme(base.textTheme),
     inputDecorationTheme: InputDecorationTheme(
       border: OutlineInputBorder(
